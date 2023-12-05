@@ -2,7 +2,7 @@
 mainSections = ["post"]
 # Output page's full content in RSS.
 rssFullContent = true
-favicon = "/favicon.png"
+favicon = "/favicon.jpeg"
 
 [footer]
 since = 2020
@@ -13,20 +13,20 @@ published = "Jan 02, 2006"
 lastUpdated = "Jan 02, 2006 15:04 MST"
 
 [sidebar]
-emoji = "🍥"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+emoji = "⚔️"
+subtitle = "Just do it. Failing is better than not trying at all"
 
 [sidebar.avatar]
 enabled = true
 local = true
-src = "img/avatar.png"
+src = "img/favicon.jpeg"
 
 [article]
 math = false
 readingTime = true
 
 [article.license]
-enabled = true
+enabled = false
 default = "Licensed under CC BY-NC-SA 4.0"
 
 ## Widgets
@@ -75,7 +75,7 @@ enabled = true
 
 ## Comments
 [comments]
-enabled = true
+enabled = false
 provider = "disqus"
 
 [comments.disqusjs]
